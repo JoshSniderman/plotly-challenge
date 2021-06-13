@@ -45,23 +45,3 @@ There are multiple fields with null values in the dataset which leaves certain f
 Additionally, the OTU labels are in a string format that does not lend to an easy read when hovering over the Plot.ly visualizations.
 
 Finally, with a small sample set of 153 subjects it is difficult to draw any meaningful conclusions from the data.
-
-## Methodology
-
-Plot.ly was used to plot the visualizations and D3 was used to manipulate the document object model (DOM). See below for the documentation for each library. Plotly.newplot is used in each code block to call the appropriate HTML tags for display. D3 is used to store tags, classes and IDs in variables to be used in the displayed data as well as reading the JSON file into app.js. While the bar graph and bubble graph are basic graphs included in Plot.ly functionality the gauge graph is a customized graph including the pie and scatter formats.
-
-[Plot.ly Documentation](https://plot.ly/javascript/)
-
-[D3 Documentation](https://d3js.org/)
-
-A simple front end was customized from a downloaded theme (link below). These files are stored in the assets folder in the Github repo. JavaScript functions were used to initiate the application and build the table and visualizations. 
-
-[Theme](https://www.creative-tim.com/product/light-bootstrap-dashboard)
-
-A select tag in the HTML navigation bar header with a on change event listener calls to a JavaScript function to update the DOM every time a new ID is selected by the client.
-
-The documents are deployed on Github Pages because it is a good option for projects with static data such as this Bio-Diversity Dashboard.
-
-## Post Mortem
-
-The most difficult challenge for this dashboard was ensuring responsive behavior for every plot and the select dropdown. Plot.ly includes a responsive function but only the bar graph and bubble graph responded appropriately. After several ineffective experiments the gauge was successfully manipulated in the CSS sheet with an @media block.
