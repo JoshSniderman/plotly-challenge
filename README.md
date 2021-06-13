@@ -1,4 +1,4 @@
-# Bio-Diversity Dashboard
+# plotly-challenge
 
 This project is a visualization Dashboard built with HyperText Markup Language (HTML)/Cascading Style Sheets (CSS) and JavaScript with the Plot.ly and D3 libraries, plotted from data in a JavaScript Object Notation (JSON) format.
 
