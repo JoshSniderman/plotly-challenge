@@ -4,7 +4,7 @@ This project is a visualization Dashboard built with HyperText Markup Language (
 
 Click below to view the Github pages deployment.
 
-[Dashboard](https://joshsniderman.github.io/Bio-DiversityDashboard/)
+[Dashboard](https://joshsniderman.github.io/plotly-challenge/)
 
 ## Introduction
 
